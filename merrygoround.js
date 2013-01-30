@@ -4,8 +4,8 @@ $(function(){
 
 
 // TODO: make this a param
-var sitesUrl = "/sites.json";
-var timing = 5000;
+var sitesUrl = "sites.json";
+var timing = 15000;
 
 var sites = [], currentSite = 0;
 
