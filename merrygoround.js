@@ -25,7 +25,7 @@ var rotateSite = function(){
 $.ajax(sitesUrl,{dataType:"json", success:function(data){
   sites = data.sites;
   data.sites.forEach(function(s, i){
-    $("body").append("<iframe id='site-"+i+"' border='0' class='site' src='"+s.url+"'></iframe>");
+    $("body").append("<iframe id='site-"+i+"' frameborder='0' class='site' src='"+s.url+"'></iframe>");
   });
   setTimeout(rotateSite, timing);
 
