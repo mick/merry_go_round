@@ -1,4 +1,6 @@
-{"sites":[
-  {"url":"http://cfa-dashboard.herokuapp.com/fun_facts"}, 
-  {"url":"http://cfa-dashboard.herokuapp.com/bios"}
-]}
+{
+  "sites": [
+    { "url": "http://cfa-dashboard.herokuapp.com/fun_facts" },
+    { "url": "http://cfa-dashboard.herokuapp.com/bios" }
+  ]
+}
